@@ -1,14 +1,12 @@
 # OpenWRT-CI
 云编译OpenWRT固件
 
-LEDE源码： 
-https://github.com/coolsnowwolf/lede.git
-
 IMMORTALWRT源码： 
 https://github.com/immortalwrt/immortalwrt.git
 
 OPENWRT-6.X源码：
 https://github.com/King-Of-Knights/openwrt-6.x.git
+https://github.com/breeze303/openwrt-6.x.git
 
 # 固件简要说明：
 
