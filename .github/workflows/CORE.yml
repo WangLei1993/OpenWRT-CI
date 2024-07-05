@@ -1,5 +1,5 @@
 #云编译公用核心
-name: WRT-CORE
+name: 云编译公用核心
 
 on:
   workflow_call:

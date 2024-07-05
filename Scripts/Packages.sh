@@ -26,21 +26,6 @@ UPDATE_PACKAGE "design-config" "gngpp/luci-app-design-config" "master"
 UPDATE_PACKAGE "argon" "jerrykuku/luci-theme-argon" "$([[ $WRT_URL == *"lede"* ]] && echo "18.06" || echo "master")"
 UPDATE_PACKAGE "argon-config" "jerrykuku/luci-app-argon-config" "$([[ $WRT_URL == *"lede"* ]] && echo "18.06" || echo "master")"
 
-UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
-UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "main"
-UPDATE_PACKAGE "ssr-plus" "fw876/helloworld" "master"
-
-UPDATE_PACKAGE "gecoosac" "lwb1978/openwrt-gecoosac" "main"
-
-if [[ $WRT_URL != *"lede"* ]]; then
-	UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "dev"
-	UPDATE_PACKAGE "mihomo" "morytyann/OpenWrt-mihomo" "main" "pkg"
-fi
-
-if [[ $WRT_URL == *"openwrt-6.x"* ]]; then
-	UPDATE_PACKAGE "qmi-wwan" "immortalwrt/wwan-packages" "master" "pkg"
-fi
-
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
@@ -96,3 +81,4 @@ UPDATE_VERSION "v2ray-plugin" "teddysun/v2ray-plugin"
 UPDATE_VERSION "v2rayA" "v2rayA/v2rayA"
 UPDATE_VERSION "xray-core" "XTLS/Xray-core"
 UPDATE_VERSION "xray-plugin" "teddysun/xray-plugin"
+
