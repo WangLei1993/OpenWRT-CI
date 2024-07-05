@@ -14,7 +14,8 @@ on:
       BRANCH:
         default: 'master'
         required: true
-        type: string
+        type: choice
+        options: [master, main]
       TARGET:
         default: 'Qualcommax'
         required: true
