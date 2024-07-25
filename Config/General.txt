@@ -53,7 +53,7 @@ CONFIG_PACKAGE_luci-app-dockerman=y
 CONFIG_PACKAGE_coreutils=y
 CONFIG_PACKAGE_coreutils-nohup=y
 CONFIG_PACKAGE_shadow-utils=y
-CONFIG_shadow-all=n
+#CONFIG_shadow-all=n
 CONFIG_PACKAGE_shadow-chpasswd=y
 #测试
 #CONFIG_PACKAGE_luci-app-openclash=y
