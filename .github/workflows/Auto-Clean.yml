@@ -1,9 +1,9 @@
 name: 自动清理
 
 on:
-  #自动清理：每天早上7点
+  #自动清理：每周一早上7点
   schedule:
-    - cron: 0 23 * * *
+    - cron: 0 23 * * 0
   #手动清理
   workflow_dispatch:
     inputs:
