@@ -15,7 +15,7 @@ on:
         default: 'master'
         required: true
         type: choice
-        options: [master, main]
+        options: [master, main, k6.12-nss]
       TARGET:
         default: 'Qualcommax'
         required: true
