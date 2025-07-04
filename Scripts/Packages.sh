@@ -12,7 +12,12 @@ UPDATE_PACKAGE() {
 
 	git clone --depth=1 --single-branch --branch $PKG_BRANCH "https://github.com/$PKG_REPO.git"
 
-	if [[ $PKG_SPECIAL == "pkg" ]]; then
+	if [[ $PKG_SPECIAL == "pkg" ]] && [[ $REPO_NAME == $PKG_NAME ]]; then
+		mkdir -p ./tmp
+		mv ./$REPO_NAME ./tmp/ 
+		cp -rf $(find ./tmp/$REPO_NAME/*/ -maxdepth 3 -type d -iname "*$PKG_NAME*" -prune) ./
+		rm -rf ./tmp
+	elif [[ $PKG_SPECIAL == "pkg" ]]; then
 		cp -rf $(find ./$REPO_NAME/*/ -maxdepth 3 -type d -iname "*$PKG_NAME*" -prune) ./
 		rm -rf ./$REPO_NAME/
 	elif [[ $PKG_SPECIAL == "name" ]]; then
