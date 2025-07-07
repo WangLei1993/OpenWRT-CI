@@ -25,7 +25,8 @@ https://github.com/breeze303/openwrt-6.x.git
 
 workflows——自定义CI配置
 
-Scripts——自定义脚本
-
 Config——自定义配置
- 
+
+Patches——自定义补丁
+
+Scripts——自定义脚本
