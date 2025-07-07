@@ -3,6 +3,8 @@
 
 IMMORTALWRT源码： 
 
+https://github.com/VIKINGYFY/immortalwrt.git
+
 https://github.com/immortalwrt/immortalwrt.git
 
 OPENWRT-6.X源码：
