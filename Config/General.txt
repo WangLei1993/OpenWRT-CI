@@ -47,11 +47,9 @@ CONFIG_PACKAGE_luci-app-cpufreq=y
 CONFIG_PACKAGE_luci-app-ddns=y
 CONFIG_PACKAGE_ddns-scripts-cloudflare=y
 CONFIG_PACKAGE_luci-app-eqos=y
-
-#因BUG临时屏蔽，现解禁后测试是否恢复
+CONFIG_PACKAGE_luci-app-banip=y
 CONFIG_PACKAGE_luci-app-socat=y
 CONFIG_PACKAGE_luci-app-vlmcsd=y
-
 CONFIG_PACKAGE_luci-app-udpxy=y
 CONFIG_PACKAGE_luci-app-dockerman=y
 CONFIG_PACKAGE_docker-compose=y
