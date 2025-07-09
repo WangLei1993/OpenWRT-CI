@@ -1,4 +1,4 @@
-#1DEVICE JDC
+#1 DEVICE JDCloud RE-SS-01
 CONFIG_TARGET_qualcommax=y
 CONFIG_TARGET_qualcommax_ipq60xx=y
 #设备列表
