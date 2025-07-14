@@ -1,6 +1,6 @@
 --- a/drivers/mmc/host/sdhci-msm.c
 +++ b/drivers/mmc/host/sdhci-msm.c
-@@ -2336,6 +2336,7 @@
+@@ -2438,6 +2438,7 @@
  static const struct sdhci_pltfm_data sdhci_msm_pdata = {
  	.quirks = SDHCI_QUIRK_BROKEN_CARD_DETECTION |
  		  SDHCI_QUIRK_SINGLE_POWER_WRITE |
