@@ -93,7 +93,9 @@ CONFIG_PACKAGE_psmisc=y
 CONFIG_PACKAGE_strace=y
 CONFIG_PACKAGE_luci-theme-argon=y
 CONFIG_PACKAGE_luci-app-argon-config=y
-CONFIG_PACKAGE_luci-app-uhttpd=y
+
+#代码有问题，且初始化脚本已设置，故屏蔽
+#CONFIG_PACKAGE_luci-app-uhttpd=y
 
 #docker相关
 CONFIG_PACKAGE_luci-app-dockerman=y
