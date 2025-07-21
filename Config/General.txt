@@ -58,7 +58,10 @@ CONFIG_PACKAGE_luci-app-nft-qos=y
 #CONFIG_PACKAGE_luci-app-banip=y
 #CONFIG_PACKAGE_luci-app-wol=y
 
+#用3cat代替
 CONFIG_PACKAGE_luci-app-socat=y
+CONFIG_PACKAGE_luci-app-3cat=y
+
 CONFIG_PACKAGE_luci-app-vlmcsd=y
 
 #用msd_lite代替
